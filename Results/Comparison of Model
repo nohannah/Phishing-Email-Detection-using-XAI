@@ -1,1 +1,48 @@
+<h2>5. Experimental Results</h2>
 
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Accuracy</th>
+      <th>Precision</th>
+      <th>Recall</th>
+      <th>F1-score</th>
+      <th>Misclassifications</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BERT</td>
+      <td>99%</td>
+      <td>99%</td>
+      <td>99%</td>
+      <td>99%</td>
+      <td>39</td>
+    </tr>
+    <tr>
+      <td>DeBERTa</td>
+      <td>99%</td>
+      <td>99%</td>
+      <td>98%</td>
+      <td>99%</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <td>RoBERTa</td>
+      <td>99%</td>
+      <td>98%</td>
+      <td>99%</td>
+      <td>99%</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>DistilBERT</td>
+      <td>99%</td>
+      <td>99%</td>
+      <td>99%</td>
+      <td>99%</td>
+      <td>Not fully available</td>
+    </tr>
+  </tbody>
+</table>
