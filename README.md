@@ -204,167 +204,14 @@ Hatiso_AI-Extensions/
 │
 ├── README.md
 ├── requirements.txt
-└── .gitignore
+
 ```
-
-> **Note:** The exact filenames inside the folders should match the files actually included in the repository.
-
 ---
 
 # 10. Installation Requirements
 
-## 10.1 Software Requirements
 
-The project was developed and trained using a Google Colab environment.
-
-The main requirements are:
-
-* Python 3.10+
-* PyTorch
-* Hugging Face Transformers
-* Pandas
-* NumPy
-* Scikit-learn
-* Matplotlib
-* Seaborn
-* SHAP
-* LIME
-* Accelerate
-* SentencePiece
-* Tokenizers
-* Datasets
-
-The complete Python dependencies are listed in:
-
-```text
-requirements.txt
-```
-
----
-
-# 11. Installation
-
-### Step 1: Clone the Repository
-
-Open a terminal and run:
-
-```bash
-git clone https://github.com/nohannah/Hatiso_AI-Extensions.git
-```
-
-Move into the project directory:
-
-```bash
-cd Hatiso_AI-Extensions
-```
-
-### Step 2: Create a Virtual Environment
-
-Create a Python virtual environment:
-
-```bash
-python -m venv venv
-```
-
-### Step 3: Activate the Virtual Environment
-
-For Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-For macOS/Linux:
-
-```bash
-source venv/bin/activate
-```
-
-### Step 4: Install Dependencies
-
-Install the required Python packages:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-# 12. Execution
-
-The models were trained using Google Colab.
-
-To reproduce the experiments:
-
-### Step 1
-
-Open the project notebook provided in the repository.
-
-### Step 2
-
-Open the notebook using Google Colab.
-
-### Step 3
-
-Ensure that the required dataset is available.
-
-### Step 4
-
-Run the preprocessing cells to clean and prepare the email dataset.
-
-### Step 5
-
-Create the stratified 20,000-email sample.
-
-### Step 6
-
-Split the data into:
-
-```text
-70% Training
-10% Validation
-20% Testing
-```
-
-### Step 7
-
-Run the model training sections for:
-
-```text
-BERT
-RoBERTa
-DistilBERT
-DeBERTa
-```
-
-### Step 8
-
-Run the evaluation section to calculate:
-
-```text
-Accuracy
-Precision
-Recall
-F1-score
-Confusion Matrix
-Misclassifications
-```
-
-### Step 9
-
-Compare the four models and identify the best-performing model.
-
-### Step 10
-
-Run the SHAP and LIME explainability sections on the selected model.
-
-### Step 11
-
-Save the generated results and figures in the appropriate repository folders.
-
----
-
-# 13. Reproducibility
+# 11. Reproducibility
 
 To reproduce the experimental results, researchers should use the same:
 
@@ -384,7 +231,7 @@ The experimental configuration used in the study includes a maximum sequence len
 
 ---
 
-# 14. Expected Output
+# 12. Expected Output
 
 After executing the pipeline, the user should obtain:
 
@@ -408,7 +255,7 @@ RoBERTa       → 99% accuracy → 58 misclassifications
 
 ---
 
-# 15. Research Contribution
+# 13. Research Contribution
 
 This project contributes a comparative evaluation of four transformer-based models for contextual phishing email detection and integrates Explainable AI into the analysis.
 
@@ -416,7 +263,7 @@ The project demonstrates that transformer models can achieve high phishing detec
 
 ---
 
-# 16. Authors
+# 14. Authors
 
 **Kritika Pradhanang**
 **Hannah No**
