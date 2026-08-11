@@ -207,11 +207,7 @@ Hatiso_AI-Extensions/
 
 ```
 ---
-
-# 10. Installation Requirements
-
-
-# 11. Reproducibility
+# 10. Reproducibility
 
 To reproduce the experimental results, researchers should use the same:
 
@@ -231,7 +227,7 @@ The experimental configuration used in the study includes a maximum sequence len
 
 ---
 
-# 12. Expected Output
+# 11. Expected Output
 
 After executing the pipeline, the user should obtain:
 
@@ -255,7 +251,7 @@ RoBERTa       → 99% accuracy → 58 misclassifications
 
 ---
 
-# 13. Research Contribution
+# 12. Research Contribution
 
 This project contributes a comparative evaluation of four transformer-based models for contextual phishing email detection and integrates Explainable AI into the analysis.
 
@@ -263,7 +259,7 @@ The project demonstrates that transformer models can achieve high phishing detec
 
 ---
 
-# 14. Authors
+# 13. Authors
 
 **Kritika Pradhanang**
 **Hannah No**
