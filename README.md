@@ -250,6 +250,7 @@ This project contributes a comparative evaluation of four transformer-based mode
 The project demonstrates that transformer models can achieve high phishing detection performance while SHAP and LIME can provide additional insight into the linguistic and contextual information influencing model predictions.
 
 ---
+
 ## How to Use This Repository
 
 Follow the steps below to reproduce the experiments.
@@ -259,11 +260,5 @@ Follow the steps below to reproduce the experiments.
 ```bash
 git clone https://github.com/nohannah/Phishing-Email-Detection-using-XAI.git
 cd Phishing-Email-Detection-using-XAI
-# 13. Authors
 
-**Kritika Pradhanang**
-**Hannah No**
-**Shahr Bano Rezai**
 
-**Asian University for Women**
-Department of Computer Science
