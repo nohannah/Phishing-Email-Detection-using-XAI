@@ -167,8 +167,13 @@ SHAP and LIME analysis showed that phishing-related terms, suspicious URLs, unco
 The repository is organized as follows:
 
 ```text
-Hatiso_AI-Extensions/
+Phishing-Email-Detection-using-XAI/
 │
+├── Figures/
+│   ├── system_architecture.png
+│   |__ workflow.png
+│   
+│   
 ├── Models/
 │   ├── BERT/
 │   ├── RoBERTa/
@@ -176,32 +181,19 @@ Hatiso_AI-Extensions/
 │   └── DeBERTa/
 │
 ├── Results/
-│   ├── evaluation_results.csv
-│   ├── model_comparison.csv
-│   └── confusion_matrices/
+│   ├──Comparison of Model
+|   ├──LIME.png
+│   ├──SHAP.png.csv
+|   ├──SHAP2.png.csv
+│   └──confusion_matrices of 4 models.png
 │
-├── Figures/
-│   ├── system_architecture.png
-│   ├── workflow.png
-│   ├── confusion_matrix_bert.png
-│   ├── confusion_matrix_roberta.png
-│   ├── confusion_matrix_distilbert.png
-│   ├── confusion_matrix_deberta.png
-│   ├── shap_results.png
-│   └── lime_results.png
 │
 ├── Presentation/
 │   └── presentation.pptx
 │
 ├── Report/
 │   └── final_report.pdf
-│
-├── src/
-│   ├── preprocessing.py
-│   ├── train.py
-│   ├── evaluate.py
-│   └── explainability.py
-│
+├── Phishing_email(1).rar
 ├── README.md
 ├── requirements.txt
 
